@@ -1,0 +1,27 @@
+{
+  "gateways": [
+    "https://cloudflare-ipfs.com/ipfs/",
+    "https://ipfs.io/ipfs/",
+    "https://ipfs.globalupload.io/ipfs/",
+    "https://gateway.ipfs.io/ipfs/",
+    "https://ipfs.infura.io/ipfs/",
+    "https://na.siderus.io/ipfs/",
+    "https://ap.siderus.io/ipfs/",
+    "https://siderus.io/ipfs/",
+    "https://eu.siderus.io/ipfs/",
+    "https://ipfs.sloppyta.co/ipfs/",
+    "https://ipfs.wa.hle.rs/ipfs/",
+    "https://ipfs.eternum.io/ipfs/",
+    "https://gateway.temporal.cloud/ipfs/",
+    "https://hardbin.com/ipfs/",
+    "https://ipfs.jes.xxx/ipfs/",
+    "https://ipfs.busy.org/ipfs/",
+    "https://gateway.serph.network/ipfs/",
+    "https://gateway.pinata.cloud/ipfs/",
+    "https://ipfs.greyh.at/ipfs/",
+    "https://ipfs.fooock.com/ipfs/",
+    "https://ipfstube.erindachtler.me/ipfs/",
+    "https://cdn.cwinfo.net/ipfs/",
+    "https://jorropo.ovh/ipfs/"
+  ]
+}

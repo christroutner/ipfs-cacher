@@ -1,0 +1,13 @@
+{
+  "pages": [
+    "/",
+    "/blog",
+    "/blog/lift-off",
+    "/blog/wikileaks",
+    "/research",
+    "/research/javascript/js-curated-links",
+    "/research/ipfs/ipfs-curated-links",
+    "/research/tor/tor-curated-links",
+    "/research/bitcoin-cash/curated-links"
+  ]
+}

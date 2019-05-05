@@ -7,20 +7,22 @@
 
 const shell = require('shelljs')
 
-const config = require('../../config')
+//const config = require('../../config')
 
 const BITBOXSDK = require('bitbox-sdk')
 const BITBOX = new BITBOXSDK()
 
-const ADDR = config.BCHADDR
+let ADDR = ''
 
 class BCH {
-  constructor (hash) {
+  constructor (addr) {
     // By default make hash an empty string.
     this.currentHash = ''
 
     // If user specified a hash to use, use that.
-    if (hash && hash !== '') this.currentHash = hash
+    //if (hash && hash !== '') this.currentHash = hash
+    this.addr = addr
+    ADDR = addr
   }
 
   // Checks to see if a new hash been published to the BCH network. If a new
