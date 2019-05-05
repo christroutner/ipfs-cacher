@@ -1,0 +1,26 @@
+{
+  "name": "ipfs-cacher",
+  "version": "1.0.0",
+  "description": "Caches IPFS content be periodically requesting it from a list of public gateways.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo no tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/christroutner/ipfs-cacher.git"
+  },
+  "keywords": [
+    "ipfs"
+  ],
+  "author": "Chris Troutner <chris.troutner@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/christroutner/ipfs-cacher/issues"
+  },
+  "homepage": "https://github.com/christroutner/ipfs-cacher#readme",
+  "dependencies": {
+    "bitbox-sdk": "^5.1.3",
+    "shelljs": "^0.8.3"
+  }
+}
