@@ -20,6 +20,11 @@ async function cacheIPFS() {
     const hash = await bch.findHash();
     console.log(`latest IPFS hash: ${hash}`);
 
+    if(!hash) {
+      console.log(`hash could not be found. Exiting.`)
+      return
+    }
+
     // Loop through each gateway
     //for (let i = 0; i < 5; i++) {
     for(let i=0; i < gateways.gateways.length; i++) {
