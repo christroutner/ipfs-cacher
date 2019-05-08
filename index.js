@@ -54,7 +54,9 @@ async function cacheIPFS() {
       }
     }
 
-    console.log(`Stopped. Cache list complete.`)
+
+    const now = new Date()
+    console.log(`Stopped at ${now.toLocaleString()}. Cache list complete.`)
   } catch (err) {
     console.error(`Error in cacheIPFS(): `, err);
   }
@@ -62,6 +64,8 @@ async function cacheIPFS() {
 cacheIPFS();
 
 setInterval(function() {
-  console.log(`Starting. Refreshing Cache.`)
+  const now = new Date()
+
+  console.log(`Starting at ${now.toLocaleString()}. Refreshing Cache.`)
   cacheIPFS()
 }, 60000 * 60) // One hour
